@@ -18,7 +18,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "miffy\\miffyzq\\": ""
+            "miffy\\miffyzq\\": "~0.4"
         }
     }
 }
