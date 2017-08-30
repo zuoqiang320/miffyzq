@@ -15,7 +15,7 @@
             "email": "zuoqiang320@126.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "miffy\\miffyzq\\": ""
@@ -23,7 +23,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1"
+            "dev-master": "0.1-dev"
         }
     }
 }
