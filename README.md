@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require miffy/miffyzq "*"
+php composer.phar require miffy/miffyzq "~0.5"
 ```
 
 or add
