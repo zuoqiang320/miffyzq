@@ -15,7 +15,7 @@
             "email": "zuoqiang320@126.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "miffy\\miffyzq\\": ""
