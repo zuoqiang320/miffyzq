@@ -1,6 +1,6 @@
 manage system UI
 ================
-后台管理UI
+基于H+后台管理UI,第一次做的初版
 
 Installation
 ------------
