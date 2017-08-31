@@ -16,7 +16,7 @@ php composer.phar require miffy/miffyzq "1.0.2"
 or add
 
 ```
-"miffy/miffyzq": "*"
+"miffy/miffyzq": "1.0.2"
 ```
 
 to the require section of your `composer.json` file.
