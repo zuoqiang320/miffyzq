@@ -129,10 +129,11 @@
                 </li>
             </ul>
         </div>
-        <a href="/logout" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
+        <a href="/site/logout" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
     </div>
     <div class="row J_mainContent" id="content-main">
-        <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="" frameborder="0" data-id="" seamless></iframe>
+        <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="#" frameborder="0" data-id="" seamless>
+        </iframe>
     </div>
 </div>
 <!--右侧部分结束-->
@@ -482,7 +483,7 @@
                 </small>
             </div>
             <div class="chat-message">
-                你好，请问H+有帮助文档吗？
+                你好，很高兴认识你
             </div>
         </div>
 
@@ -490,7 +491,7 @@
     <div class="form-chat">
         <div class="input-group input-group-sm">
             <input type="text" class="form-control"> <span class="input-group-btn"> <button
-                    class="btn btn-primary" type="button">发送
+                        class="btn btn-primary" type="button">发送
                 </button> </span>
         </div>
     </div>
