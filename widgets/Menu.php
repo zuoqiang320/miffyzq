@@ -23,15 +23,15 @@ class Menu extends \yii\widgets\Menu
     public $submenuTemplate = "\n<ul class=\"nav nav-second-level\">\n{items}\n</ul>\n";//second menu
     public $activateParents = true;
 
-    public $path = '';
+    public $user = [];
 
     public $topTemplate = '<li class="nav-header">
                 <div class="dropdown profile-element">
-                    <span><img alt="image" class="img-circle" src="{path}" /></span>
+                    <span><img alt="image" class="img-circle" src="{headImg}" /></span>
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
-                               <span class="block m-t-xs"><strong class="font-bold">Beaut-zihan</strong></span>
-                                <span class="text-muted text-xs block">超级管理员<b class="caret"></b></span>
+                               <span class="block m-t-xs"><strong class="font-bold">{name}</strong></span>
+                                <span class="text-muted text-xs block">{role}<b class="caret"></b></span>
                                 </span>
                     </a>
                     <ul class="dropdown-menu animated fadeInRight m-t-xs">
@@ -57,8 +57,8 @@ class Menu extends \yii\widgets\Menu
         }
         $items = $this->normalizeItems($this->items, $hasActiveChild);
 
-        if ($this->path) {
-            $this->setTopLabelPath($this->path);
+        if ($this->user) {
+            $this->setTopLabelInfo($this->user);
         }
 
         if (!empty($items)) {
@@ -229,8 +229,10 @@ class Menu extends \yii\widgets\Menu
         return false;
     }
 
-    protected function setTopLabelPath($path)
+    protected function setTopLabelInfo($user)
     {
-        $this->topTemplate = strtr($this->topTemplate, ["{path}" => $path]);
+        foreach ($user as $key => $val) {
+            $this->topTemplate = strtr($this->topTemplate, ["{". $key ."}" => $val]);
+        }
     }
 }

@@ -7,7 +7,7 @@ use yii\helpers\Html;
  * Time: 下午2:36
  * Desc:
  */
-miffy\miffyzq\assets\MiffyAsset::register($this);
+miffy\miffyzq\assets\MiffyLoginAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

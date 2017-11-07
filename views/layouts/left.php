@@ -5,7 +5,7 @@
     <div class="sidebar-collapse">
             <?= \miffy\miffyzq\widgets\Menu::widget(
                 [
-                    'path' => $directoryAsset . '/img/profile_small.jpg',
+                    'user' => $user,
                     'options' => ['class' => 'nav', 'id' => 'side-menu'],
                     'items' => [
                         ['label' => 'Menu Yii2', 'options' => ['class' => 'header', 'style' => 'color: #4b646f;

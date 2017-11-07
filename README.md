@@ -10,20 +10,20 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require miffy/miffyzq "1.0.4"
+php composer.phar require miffy/miffyzq "1.0.5"
 ```
 
 or add
 
 ```
-"miffy/miffyzq": "1.0.4"
+"miffy/miffyzq": "1.0.5"
 ```
 
 to the require section of your `composer.json` file.
 
 Picture
 -------
-!["login"](http://wx3.sinaimg.cn/mw690/7552a991gy1fl9n0vs6rhj21kw0twn1a.jpg )
+![login](http://wx3.sinaimg.cn/mw690/7552a991gy1fl9n0vs6rhj21kw0twn1a.jpg )
 ![index](https://wx3.sinaimg.cn/mw690/7552a991gy1fl9n0u7vf3j21kw0tttcl.jpg)
 
 

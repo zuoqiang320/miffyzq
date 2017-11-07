@@ -48,7 +48,11 @@ if (Yii::$app->controller->action->id === 'login') {
             'left.php',
             [
                 'directoryAsset' => $directoryAsset,
-//            'userInfo' => $userInfo
+                'user' => isset($user) ? $user : [
+                        'headImg' => $directoryAsset . '/img/profile_small.jpg',
+                        'name' => 'Miffy',
+                        'role' => 'admin'
+                    ]
             ]
         )
         ?>
