@@ -23,8 +23,8 @@ to the require section of your `composer.json` file.
 
 Picture
 -------
-![login](http://wx3.sinaimg.cn/mw690/7552a991gy1fl9n0vs6rhj21kw0twn1a.jpg )
-![index](https://wx3.sinaimg.cn/mw690/7552a991gy1fl9n0u7vf3j21kw0tttcl.jpg)
+![login](http://wx3.sinaimg.cn/mw690/7552a991gy1fl9oh8x8fij21kw0tvn0p.jpg)
+![index](https://wx1.sinaimg.cn/mw690/7552a991gy1fl9oh8x99tj21kw0txn0t.jpg)
 
 
 Usage
