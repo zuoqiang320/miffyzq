@@ -2,7 +2,7 @@
     "name": "miffy/miffyzq",
     "description": "backend theme asset bundle for Yii 2.0 Framework;基于H+的后台模板第一版",
     "type": "yii2-extension",
-    "version":"1.0.6",
+    "version":"1.0.7",
     "require": {
         "yiisoft/yii2": "^2.0",
         "yiisoft/yii2-bootstrap": "^2.0",
