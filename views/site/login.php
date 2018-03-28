@@ -21,7 +21,7 @@ $this->title = 'Login';
                     <h1 class="wel">Welcome</h1>
                 </div>
                 <div class="m-b"></div>
-                <p class="welcome">欢迎使用 <strong>管理后台</strong></p>
+                <p class="welcome"><?= $banner?></p>
             </div>
         </div>
         <div class="col-sm-6">
