@@ -10,22 +10,26 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 $this->title = 'Login';
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/miffy/miffyzq/static');
 ?>
 <script>if(window.top !== window.self){ window.top.location = window.location;}</script>
 
 <div class="signinpanel ms-signinpanel">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="signin-info">
+        <div class="col-sm-9">
+            <div class="signin-info col-sm-12" style="background: url('<?= $directoryAsset?>/img/background.jpg') no-repeat center center;margin-top: 5rem;height: 23rem"></div>
+            <div class="signin-info animated fadeInLeft">
                 <div class="logopanel m-b">
                     <h1 class="wel">Welcome</h1>
                 </div>
                 <div class="m-b"></div>
-                <p class="welcome"><?= $banner?></p>
+                <p class="welcome"><?= (isset($banner) ? $banner : "欢迎使用 <strong>管理后台</strong>")?></p>
             </div>
+
         </div>
-        <div class="col-sm-6">
-            <div class="login-box">
+        <div class="col-sm-3">
+
+            <div class="login-box animated fadeInRight">
                 <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false, 'class' => 'm-t']); ?>
 
                 <p class="login-text">登录中心</p>
@@ -51,6 +55,7 @@ $this->title = 'Login';
                 <?php ActiveForm::end(); ?>
             </div>
         </div>
+
     </div>
 </div>
 

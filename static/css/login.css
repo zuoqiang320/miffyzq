@@ -7,12 +7,19 @@
 .signinpanel .btn-success:hover{opacity: .9;}
 .login-box {
     max-width: 400px;
-    margin: 16rem auto;
+    margin: 32rem auto;
+}
+.signin-banner {
+    width: 100%;
+}
+.signin-banner img {
+    width: 100%;
+    /*margin: 5rem auto;*/
 }
 .signin-info {
     width: 100%;
     text-align: center;
-    margin: 20rem auto;
+    margin: 10rem auto;
 }
 .wel {
     font-size: 110px;

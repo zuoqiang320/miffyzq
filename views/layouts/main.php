@@ -18,8 +18,7 @@ if (Yii::$app->controller->action->id === 'login') {
     echo $this->render(
         'main-login',
         [
-            'content' => $content,
-            'banner' => isset($banner) ? $banner : "欢迎使用 <strong>管理后台</strong>"
+            'content' => $content
         ]
     );
 } else if (Yii::$app->controller->id === 'site' && Yii::$app->controller->action->id === 'index') {
