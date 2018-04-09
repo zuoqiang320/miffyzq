@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require miffy/miffyzq "1.0.9"
+php composer.phar require miffy/miffyzq "1.0.10"
 ```
 
 or add
 
 ```
-"miffy/miffyzq": "1.0.9"
+"miffy/miffyzq": "1.0.10"
 ```
 
 to the require section of your `composer.json` file.

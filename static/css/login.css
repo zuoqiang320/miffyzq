@@ -1,13 +1,21 @@
+html,body {
+    margin:0;
+    padding: 0;
+    height:100%;
+}
 .ms-signinpanel form{background: rgba(255, 255, 255, .95);color: #333;padding: 40px 30px;}
 .ms-signinpanel form .login-text{font-size: 20px;}
 .signinpanel .uname,.signinpanel .pword{height: 40px;border-radius: 5px;margin-top: 25px;}
+.signinpanel {height: 100%;width: 100%}
 
 .signinpanel .btn-success{    border-color: #01b3c2;
     background-color: #00c6d7;margin-top: 35px;height: 40px;font-size: 20px;}
 .signinpanel .btn-success:hover{opacity: .9;}
 .login-box {
-    max-width: 400px;
-    margin: 32rem auto;
+    max-width: 36rem;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 30rem;
 }
 .signin-banner {
     width: 100%;
@@ -34,4 +42,21 @@
 }
 .ms-signinpanel form .login-text {
     font-weight: bold;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    font-size: 2rem;
+}
+.bg-blur {
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }

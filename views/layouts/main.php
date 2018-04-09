@@ -76,9 +76,12 @@ if (Yii::$app->controller->action->id === 'login') {
     </html>
     <?php $this->endPage() ?>
 <?php } else {
-    if (class_exists('backend\assets\AppAsset')) {
+    $target = isset($module) ? $module : "app-frontend";
+    if (class_exists('frontend\assets\AppAsset') && Yii::$app->controller->module->id == $target) {
+        frontend\assets\AppAsset::register($this);
+    } elseif (class_exists('backend\assets\AppAsset')) {
         backend\assets\AppAsset::register($this);
-    } else {
+    }else {
         app\assets\AppAsset::register($this);
     }
     miffy\miffyzq\assets\MiffyAssetForContent::register($this);
