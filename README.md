@@ -23,7 +23,7 @@ to the require section of your `composer.json` file.
 
 Picture
 -------
-![login](https://wx1.sinaimg.cn/mw690/7552a991gy1fq6f2xes6kj21kw0s9n46.jpg)
+![login](https://wx4.sinaimg.cn/mw690/7552a991gy1fq6f65orosj21kw0s9n46.jpg)
 ![index](https://wx1.sinaimg.cn/mw690/7552a991gy1fl9oh8x99tj21kw0txn0t.jpg)
 
 
